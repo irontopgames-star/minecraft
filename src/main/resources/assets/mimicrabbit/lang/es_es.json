@@ -1,0 +1,13 @@
+{
+  "entity.mimicrabbit.mimic_rabbit": "Conejo",
+  "item.mimicrabbit.mimic_rabbit_spawn_egg": "Huevo generador de conejo (mímico)",
+  "subtitles.mimicrabbit.transform_start": "Algo se agita bajo el pelaje",
+  "subtitles.mimicrabbit.transform_crack": "Crujen huesos",
+  "subtitles.mimicrabbit.transform_scream": "El conejo grita",
+  "subtitles.mimicrabbit.transform_roar": "La criatura ruge",
+  "subtitles.mimicrabbit.ambient": "La criatura gruñe",
+  "subtitles.mimicrabbit.breath": "La criatura respira",
+  "subtitles.mimicrabbit.attack": "La criatura ataca",
+  "subtitles.mimicrabbit.hurt": "La criatura se queja",
+  "subtitles.mimicrabbit.death": "La criatura muere"
+}

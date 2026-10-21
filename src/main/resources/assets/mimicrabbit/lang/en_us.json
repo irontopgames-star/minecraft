@@ -1,0 +1,13 @@
+{
+  "entity.mimicrabbit.mimic_rabbit": "Rabbit",
+  "item.mimicrabbit.mimic_rabbit_spawn_egg": "Rabbit Spawn Egg (Mimic)",
+  "subtitles.mimicrabbit.transform_start": "Something stirs beneath the fur",
+  "subtitles.mimicrabbit.transform_crack": "Bones crack",
+  "subtitles.mimicrabbit.transform_scream": "Rabbit screams",
+  "subtitles.mimicrabbit.transform_roar": "Creature roars",
+  "subtitles.mimicrabbit.ambient": "Creature growls",
+  "subtitles.mimicrabbit.breath": "Creature breathes",
+  "subtitles.mimicrabbit.attack": "Creature attacks",
+  "subtitles.mimicrabbit.hurt": "Creature hurts",
+  "subtitles.mimicrabbit.death": "Creature dies"
+}

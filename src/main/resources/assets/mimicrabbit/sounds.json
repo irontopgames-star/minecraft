@@ -1,0 +1,65 @@
+{
+  "entity.mimic_rabbit.transform_start": {
+    "subtitle": "subtitles.mimicrabbit.transform_start",
+    "sounds": [
+      { "name": "entity.warden.heartbeat", "type": "event", "pitch": 0.55, "volume": 1.0 }
+    ]
+  },
+  "entity.mimic_rabbit.transform_crack": {
+    "subtitle": "subtitles.mimicrabbit.transform_crack",
+    "sounds": [
+      { "name": "block.bone_block.break", "type": "event", "pitch": 0.5, "volume": 1.0 }
+    ]
+  },
+  "entity.mimic_rabbit.transform_scream": {
+    "subtitle": "subtitles.mimicrabbit.transform_scream",
+    "sounds": [
+      { "name": "entity.enderman.scream", "type": "event", "pitch": 0.5, "volume": 1.0 }
+    ]
+  },
+  "entity.mimic_rabbit.transform_roar": {
+    "subtitle": "subtitles.mimicrabbit.transform_roar",
+    "sounds": [
+      { "name": "entity.ravager.roar", "type": "event", "pitch": 0.6, "volume": 1.0 }
+    ]
+  },
+  "entity.mimic_rabbit.ambient": {
+    "subtitle": "subtitles.mimicrabbit.ambient",
+    "sounds": [
+      { "name": "entity.ravager.ambient", "type": "event", "pitch": 0.6, "volume": 1.0 },
+      { "name": "entity.polar_bear.warning", "type": "event", "pitch": 0.6, "volume": 0.8 }
+    ]
+  },
+  "entity.mimic_rabbit.breath": {
+    "subtitle": "subtitles.mimicrabbit.breath",
+    "sounds": [
+      { "name": "entity.warden.sniff", "type": "event", "pitch": 0.5, "volume": 0.9 }
+    ]
+  },
+  "entity.mimic_rabbit.attack": {
+    "subtitle": "subtitles.mimicrabbit.attack",
+    "sounds": [
+      { "name": "entity.ravager.attack", "type": "event", "pitch": 1.2, "volume": 1.0 },
+      { "name": "entity.rabbit.attack", "type": "event", "pitch": 0.5, "volume": 1.0 }
+    ]
+  },
+  "entity.mimic_rabbit.hurt": {
+    "subtitle": "subtitles.mimicrabbit.hurt",
+    "sounds": [
+      { "name": "entity.ravager.hurt", "type": "event", "pitch": 1.1, "volume": 1.0 },
+      { "name": "entity.rabbit.hurt", "type": "event", "pitch": 0.5, "volume": 1.0 }
+    ]
+  },
+  "entity.mimic_rabbit.death": {
+    "subtitle": "subtitles.mimicrabbit.death",
+    "sounds": [
+      { "name": "entity.ravager.death", "type": "event", "pitch": 0.8, "volume": 1.0 },
+      { "name": "entity.rabbit.death", "type": "event", "pitch": 0.4, "volume": 1.0 }
+    ]
+  },
+  "entity.mimic_rabbit.step": {
+    "sounds": [
+      { "name": "block.bone_block.step", "type": "event", "pitch": 0.7, "volume": 0.8 }
+    ]
+  }
+}
