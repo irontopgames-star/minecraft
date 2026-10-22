@@ -43,7 +43,6 @@ import net.minecraft.world.entity.ai.goal.PanicGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.entity.ai.util.LandRandomPos;
-import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -141,7 +140,7 @@ public class MimicRabbit extends PathfinderMob {
     public static boolean checkSpawnRules(EntityType<MimicRabbit> type, LevelAccessor level, MobSpawnType reason,
                                           BlockPos pos, RandomSource random) {
         return level.getBlockState(pos.below()).is(BlockTags.RABBITS_SPAWNABLE_ON)
-                && Animal.isBrightEnoughToSpawn(level, pos);
+                && level.getRawBrightness(pos, 0) > 8;
     }
 
     // ------------------------------------------------------------------ datos sincronizados
